@@ -1,0 +1,32 @@
+[2024-06-24 12:44:40,053: INFO: common_utils: yaml file: wine_quality\src\config.yaml loaded successfully]
+[2024-06-24 12:44:40,061: INFO: common_utils: yaml file: wine_quality\src\models\params.yaml loaded successfully]
+[2024-06-24 12:44:40,066: INFO: common_utils: yaml file: wine_quality\src\data\schema.yaml loaded successfully]
+[2024-06-24 12:44:40,069: INFO: common_utils: created directory at: wine_quality]
+[2024-06-24 12:44:40,071: INFO: common_utils: created directory at: wine_quality/data/raw]
+[2024-06-24 12:44:42,046: INFO: 1898037227: wine_quality/data/raw/data.zip download! With following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 8BA9:F9EC9:19E6894:1B3EB50:66794E19
+Accept-Ranges: bytes
+Date: Mon, 24 Jun 2024 10:44:41 GMT
+Via: 1.1 varnish
+X-Served-By: cache-par-lfpg1960071-PAR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1719225882.821334,VS0,VE171
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 3f25e5b89742f32c6e4b0a065a0d086b629a40c6
+Expires: Mon, 24 Jun 2024 10:49:41 GMT
+Source-Age: 0
+
+]

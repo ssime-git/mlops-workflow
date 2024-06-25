@@ -1,0 +1,6 @@
+2024-06-25 14:31:59,369 - logger - INFO - This is an informational message.
+2024-06-25 14:40:09,583 - custom_logger - INFO - Custom logger module initialized.
+2024-06-25 14:40:09,583 - custom_logger - INFO - >>>>> stage Data Ingestion stage started <<<<<
+2024-06-25 14:40:09,584 - custom_logger - INFO - >>>>> stage Data Ingestion stage completed <<<<<
+
+x=======x
