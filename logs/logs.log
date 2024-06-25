@@ -179,3 +179,14 @@ x=======x
 2024-06-25 16:10:43,889 - custom_logger - INFO - >>>>> stage Data Ingestion stage completed <<<<<
 
 x=======x
+2024-06-25 16:24:08,573 - custom_logger - INFO - Custom logger module initialized.
+2024-06-25 16:24:08,932 - custom_logger - INFO - Parent folder: /home/user/mlops-workflow
+2024-06-25 16:24:08,932 - custom_logger - INFO - >>>>> stage Data Ingestion stage started <<<<<
+2024-06-25 16:24:08,936 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-06-25 16:24:08,938 - custom_logger - INFO - yaml file: src/models/params.yaml loaded successfully
+2024-06-25 16:24:08,940 - custom_logger - INFO - yaml file: src/data/schema.yaml loaded successfully
+2024-06-25 16:24:08,940 - custom_logger - INFO - created directory at: data/raw
+2024-06-25 16:24:08,940 - custom_logger - INFO - File already exists.
+2024-06-25 16:24:08,944 - custom_logger - INFO - >>>>> stage Data Ingestion stage completed <<<<<
+
+x=======x

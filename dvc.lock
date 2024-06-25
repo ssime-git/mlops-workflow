@@ -9,8 +9,8 @@ stages:
       size: 793
     - path: src/pipeline/stage01_data_ingestion.py
       hash: md5
-      md5: 53d44d1175d753abae69252394a30214
-      size: 961
+      md5: e122ea93dbb15a658c5939be089a2e8c
+      size: 1091
     outs:
     - path: data/raw/winequality-red.csv
       hash: md5
