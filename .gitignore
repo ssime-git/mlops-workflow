@@ -4,3 +4,4 @@
 devserver.sh
 main.py
 data/
+*/__pycache__/*
