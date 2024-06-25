@@ -4,3 +4,98 @@
 2024-06-25 14:40:09,584 - custom_logger - INFO - >>>>> stage Data Ingestion stage completed <<<<<
 
 x=======x
+2024-06-25 14:54:15,886 - custom_logger - INFO - Custom logger module initialized.
+2024-06-25 14:54:15,887 - custom_logger - INFO - >>>>> stage Data Ingestion stage started <<<<<
+2024-06-25 14:54:15,887 - custom_logger - INFO - >>>>> stage Data Ingestion stage completed <<<<<
+
+x=======x
+2024-06-25 14:54:50,648 - custom_logger - INFO - Custom logger module initialized.
+2024-06-25 14:54:50,949 - custom_logger - INFO - >>>>> stage Data Ingestion stage started <<<<<
+2024-06-25 14:54:50,949 - custom_logger - INFO - >>>>> stage Data Ingestion stage completed <<<<<
+
+x=======x
+2024-06-25 14:59:14,314 - custom_logger - INFO - Custom logger module initialized.
+2024-06-25 14:59:14,631 - custom_logger - INFO - >>>>> stage Data Ingestion stage started <<<<<
+2024-06-25 14:59:14,631 - custom_logger - ERROR - [Errno 2] No such file or directory: 'config.yaml'
+Traceback (most recent call last):
+  File "/home/user/mlops-workflow/src/pipeline/stage01_data_ingestion.py", line 23, in <module>
+    obj.main()
+  File "/home/user/mlops-workflow/src/pipeline/stage01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/mlops-workflow/src/config_manager.py", line 16, in __init__
+    self.config = read_yaml(config_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/mlops-workflow/.venv/lib/python3.11/site-packages/ensure/main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/mlops-workflow/src/common_utils.py", line 34, in read_yaml
+    raise e
+  File "/home/user/mlops-workflow/src/common_utils.py", line 27, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config.yaml'
+2024-06-25 15:02:37,675 - custom_logger - INFO - Custom logger module initialized.
+2024-06-25 15:02:38,160 - custom_logger - INFO - >>>>> stage Data Ingestion stage started <<<<<
+2024-06-25 15:02:38,166 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-06-25 15:02:38,168 - custom_logger - INFO - yaml file: src/models/params.yaml loaded successfully
+2024-06-25 15:02:38,172 - custom_logger - INFO - yaml file: src/data/schema.yaml loaded successfully
+2024-06-25 15:02:38,173 - custom_logger - INFO - created directory at: wine_quality
+2024-06-25 15:02:38,174 - custom_logger - INFO - created directory at: wine_quality/data/raw
+2024-06-25 15:02:38,717 - custom_logger - ERROR - name 'logger' is not defined
+Traceback (most recent call last):
+  File "/home/user/mlops-workflow/src/pipeline/stage01_data_ingestion.py", line 23, in <module>
+    obj.main()
+  File "/home/user/mlops-workflow/src/pipeline/stage01_data_ingestion.py", line 16, in main
+    data_ingestion.download_file()
+  File "/home/user/mlops-workflow/src/data/data_ingestion.py", line 18, in download_file
+    logger.info(f"{filename} download! With following info: \n{headers}")
+    ^^^^^^
+NameError: name 'logger' is not defined
+2024-06-25 15:03:22,007 - custom_logger - INFO - Custom logger module initialized.
+2024-06-25 15:03:22,341 - custom_logger - INFO - >>>>> stage Data Ingestion stage started <<<<<
+2024-06-25 15:03:22,346 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-06-25 15:03:22,347 - custom_logger - INFO - yaml file: src/models/params.yaml loaded successfully
+2024-06-25 15:03:22,349 - custom_logger - INFO - yaml file: src/data/schema.yaml loaded successfully
+2024-06-25 15:03:22,350 - custom_logger - INFO - created directory at: wine_quality
+2024-06-25 15:03:22,350 - custom_logger - INFO - created directory at: wine_quality/data/raw
+2024-06-25 15:03:22,351 - custom_logger - INFO - File already exists.
+2024-06-25 15:03:22,354 - custom_logger - INFO - >>>>> stage Data Ingestion stage completed <<<<<
+
+x=======x
+2024-06-25 15:05:28,744 - custom_logger - INFO - Custom logger module initialized.
+2024-06-25 15:05:29,053 - custom_logger - INFO - >>>>> stage Data Ingestion stage started <<<<<
+2024-06-25 15:05:29,056 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-06-25 15:05:29,058 - custom_logger - INFO - yaml file: src/models/params.yaml loaded successfully
+2024-06-25 15:05:29,060 - custom_logger - INFO - yaml file: src/data/schema.yaml loaded successfully
+2024-06-25 15:05:29,061 - custom_logger - INFO - created directory at: data/raw
+2024-06-25 15:05:29,344 - custom_logger - INFO - data/raw/data.zip download! With following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 134B:2C0FE0:63C316:68CCE8:667AD0BA
+Accept-Ranges: bytes
+Date: Tue, 25 Jun 2024 15:05:29 GMT
+Via: 1.1 varnish
+X-Served-By: cache-par-lfpg1960090-PAR
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1719327929.332229,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 24205fec2f9f656760c97fa77a145d91994f425a
+Expires: Tue, 25 Jun 2024 15:10:29 GMT
+Source-Age: 171
+
+
+2024-06-25 15:05:29,348 - custom_logger - INFO - >>>>> stage Data Ingestion stage completed <<<<<
+
+x=======x

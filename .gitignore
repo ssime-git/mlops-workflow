@@ -3,3 +3,4 @@
 .idx/
 devserver.sh
 main.py
+data/

@@ -3,7 +3,7 @@ import urllib.request as request
 import zipfile
 from pathlib import Path
 from src.entity import DataIngestionConfig
-# from wine_quality import logger
+from custom_logger import logger
 
 class DataIngestion:
     def __init__(self, config: DataIngestionConfig):
