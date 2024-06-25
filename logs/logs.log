@@ -159,3 +159,13 @@ x=======x
 2024-06-25 16:05:31,359 - custom_logger - INFO - >>>>> stage Data Ingestion stage completed <<<<<
 
 x=======x
+2024-06-25 16:09:33,278 - custom_logger - INFO - Custom logger module initialized.
+2024-06-25 16:09:33,646 - custom_logger - INFO - >>>>> stage Data Ingestion stage started <<<<<
+2024-06-25 16:09:33,651 - custom_logger - INFO - yaml file: src/config.yaml loaded successfully
+2024-06-25 16:09:33,653 - custom_logger - INFO - yaml file: src/models/params.yaml loaded successfully
+2024-06-25 16:09:33,655 - custom_logger - INFO - yaml file: src/data/schema.yaml loaded successfully
+2024-06-25 16:09:33,656 - custom_logger - INFO - created directory at: data/raw
+2024-06-25 16:09:33,657 - custom_logger - INFO - File already exists.
+2024-06-25 16:09:33,661 - custom_logger - INFO - >>>>> stage Data Ingestion stage completed <<<<<
+
+x=======x
